@@ -1,0 +1,35 @@
+<div class="container mt-6 border-0  h-auto  float-left ">
+    <div class="row d-flex justify-content-center">
+
+
+<form action="/admin/addProduct" method="post" enctype="multipart/form-data" class="loginBox col-md6">
+<label class="fw-bold" for="productname">Product name</label >
+<input type="text" name="name" id="username" class="w-100 p-2 m-2 form-control">
+
+
+<label class="fw-bold" for="des">Description</label>
+
+<input type="text" name="description" id="des" class="w-100 p-2 m-2 form-control">
+<label class="fw-bold" for="rating">Rating</label>
+<input type="text" name="rating" id="rating" class="w-100 p-2 m-2 form-control">
+
+<label class="fw-bold" for="cat">Category</label>
+<input type="text" name="category" id="cat"  class="w-100 p-2 m-2 form-control">
+
+<label class="fw-bold" for="">Price</label>
+<input type="number" name="price" id="price" class="w-100 p-2 m-2 form-control">
+
+ <label class="fw-bold" for="">Image</label>
+<input type="file" name="image" id="images" class="w-100 p-2 m-2 form-control">  
+
+{{!-- <input type="submit" class="btn btn-success" value="submit"> --}}
+
+<button class="btn btn-success primary active  btn-lg" type="submit">Submit</button>
+
+
+</form>
+        
+    </div>
+
+</div>
+
